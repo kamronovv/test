@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --dark-black:#707070;
+    --white-color:#ffffff;
+    --blue-color: #306EF7;
+}
+
+
+
+.big-container{
+    background-color: #000;
+    width: 100%;
+    height: 3000px;
+    margin: auto;
+}
+
+
+.list-box {
+    display: flex;
+    padding: 4.5rem 10.4rem;
+    justify-content: center;
+}
+
+.list-box ul {
+    display: flex;
+}
+
+.top {
+    margin-top: 1rem;
+}
+
+.right {
+    margin-right: auto;
+}
+.right li {
+    margin-right: 1.7rem;
+}
+
+.center li {
+    margin-left:3.7rem;
+}
+
+
+.left {
+    margin-left: auto;
+}
+
+.btn {
+    background-color: #3C82F4;
+    padding: 1.2rem 1.5rem;
+    border-radius: 5px;
+}
+
+.left li {
+    margin-right: 2.4rem;
+}   
+
+
+.list-box li a {
+    font-size: 2rem; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--dark-black);
+}
+
+/*navbar-finshed */
+
+.header-texts {
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--white-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.text-1 {
+    font-size: 11rem;
+    line-height: 15rem;
+}
+
+
+
+.main-box-1 {
+    margin: 10rem 27% 0;
+}
+.main-text-1 {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 3.7rem;
+
+}
+.box-1-button  {
+    font-size: 2rem;
+    text-align: center;
+    margin: 7rem 3.2rem 3rem 3.2rem;
+}
+
+.box-1-button a {
+    margin: 0 1.2rem 0 1.2rem;
+    text-decoration: none;
+    padding: 2.3rem 7.3rem ;
+    border-radius: 8px;
+}
+
+.button-1 {
+    background-color: #326CF9;
+    color: var(--white-color);
+}
+
+.button-2 {
+    background: none;
+    border: 1px solid var(--dark-black);
+    color: var(--dark-black);
+}
+
+.bottom-linya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.serieses {
+    display: flex;
+    align-items: center;
+}
+
+.button-text {
+    color: var(--dark-black);
+    font-size: 2.5rem;
+}
+
+.button-text span {
+    color: var(--white-color);
+    font-size: 2.5rem;
+    margin: 0 1rem;
+} 
+
+
+
+
+.box-2 {
+    margin-top: 13rem
+}
+.box-2--title {
+    text-align: center;
+    font-size: 7.5rem;
+}
+
+.serieses {
+    display: flex;
+
+    margin: 6.4rem 14rem;
+}
+
+
+
+.right-ss {
+    margin-left: 10rem ;
+}
+
+
+
+.series-text {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.series-stik {
+    width: 3.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+
+.box-2 h1 {
+    color: var(--white-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.series-paragrf {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-black);
+}
+
+.steap-box {
+    margin-top: 12rem;
+    text-align: center;
+}
+
+
+
+.step-title a {
+    color: var(--blue-color); 
+}
+
+.steap-1-text-1 {
+    color: var(--white-color);
+    font-size: 7rem;
+}
+
+.steap-1-paragrf-1 {
+    color: var(--dark-black);
+    font-size: 2.9rem;
+    line-height: 1.5;
+    margin: 0 20%;
+    margin-bottom: 5rem;
+}
+
+.steap-1-button-1 {
+    font-size: 2rem;
+    border: 1px solid var(--dark-black);
+    border-radius: 15px;
+    padding: 2.3rem 3.7rem;
+    color: var(--dark-black);
+}
+
+
+
+.box-3 {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+    margin-top: 18rem
+}
+
+.left-box {
+    margin-left: 13rem
+}
+
+.right-box{
+    position: relative;
+    width: 75rem;
+    filter: drop-shadow(0px 30px 50px rgba(0, 0, 0, 0.4));
+    background-image: url(img/df31278ede4b7edb8cdeeff708e687fa.png);
+    filter: drop-shadow(0px 30px 50px rgba(100, 100, 100, 0.498039));
+    transform: matrix();
+    background-size: 80rem;   
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+
+
+.box-3--text-1 {
+    font-size: 3rem;
+}
+.box-3--text-2 {
+    font-size: 6.5rem;
+    line-height: 7rem;
+    margin-top: 4rem;
+    text-align: left;
+}
+.box-3--text-2 span {
+    color: var(--blue-color);
+}
+
+.bulder-bx {
+    margin-top: 3rem;
+
+}
+
+.bullets-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.bullet-radius {
+    background-color: var(--dark-black);
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 100%;
+}
+
+.bullet-radius h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.bullets-1 p {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+

@@ -1,0 +1,23 @@
+.butting-ofshi a:last-of-type {
+    margin-left: 1rem; 
+}
+
+.button-blue {
+    font-size: 1.5rem;
+    padding: 1rem 1.7rem;
+    border-radius: 8px;
+    background-color: var(--blue-color);
+}
+
+.button-black {
+    font-size: 1.5rem;
+    padding: 1rem 1.7rem;
+    border-radius: 8px;
+    background: none;
+    border: 1px solid var(--dark-black);
+    color: var(--dark-black);
+}
+
+.margin-top-4 {
+    margin-top: 8rem;
+}
